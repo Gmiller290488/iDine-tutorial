@@ -23,6 +23,7 @@
 		CEAFBA52243381F800A902C9 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA51243381F800A902C9 /* ItemDetail.swift */; };
 		CEAFBA5424338DF000A902C9 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA5324338DF000A902C9 /* OrderView.swift */; };
 		CEAFBA56243392EA00A902C9 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA55243392EA00A902C9 /* AppView.swift */; };
+		CEAFBA582433964D00A902C9 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA572433964D00A902C9 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		CEAFBA51243381F800A902C9 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		CEAFBA5324338DF000A902C9 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		CEAFBA55243392EA00A902C9 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		CEAFBA572433964D00A902C9 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				CEAFBA47243373B300A902C9 /* Helper.swift */,
 				CEAFBA17243372DE00A902C9 /* AppDelegate.swift */,
 				CEAFBA19243372DE00A902C9 /* SceneDelegate.swift */,
+				CEAFBA572433964D00A902C9 /* CheckoutView.swift */,
 				CEAFBA1B243372DE00A902C9 /* ContentView.swift */,
 				CEAFBA4F243378DC00A902C9 /* ItemRow.swift */,
 				CEAFBA51243381F800A902C9 /* ItemDetail.swift */,
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAFBA4C243373BD00A902C9 /* Menu.swift in Sources */,
+				CEAFBA582433964D00A902C9 /* CheckoutView.swift in Sources */,
 				CEAFBA18243372DE00A902C9 /* AppDelegate.swift in Sources */,
 				CEAFBA1A243372DE00A902C9 /* SceneDelegate.swift in Sources */,
 				CEAFBA50243378DC00A902C9 /* ItemRow.swift in Sources */,
