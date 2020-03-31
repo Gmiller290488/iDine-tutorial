@@ -21,6 +21,7 @@
 		CEAFBA4E2433740700A902C9 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = CEAFBA4D2433740700A902C9 /* menu.json */; };
 		CEAFBA50243378DC00A902C9 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA4F243378DC00A902C9 /* ItemRow.swift */; };
 		CEAFBA52243381F800A902C9 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA51243381F800A902C9 /* ItemDetail.swift */; };
+		CEAFBA5424338DF000A902C9 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA5324338DF000A902C9 /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		CEAFBA4D2433740700A902C9 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		CEAFBA4F243378DC00A902C9 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		CEAFBA51243381F800A902C9 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		CEAFBA5324338DF000A902C9 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				CEAFBA1B243372DE00A902C9 /* ContentView.swift */,
 				CEAFBA4F243378DC00A902C9 /* ItemRow.swift */,
 				CEAFBA51243381F800A902C9 /* ItemDetail.swift */,
+				CEAFBA5324338DF000A902C9 /* OrderView.swift */,
 				CEAFBA4D2433740700A902C9 /* menu.json */,
 				CEAFBA1D243372E000A902C9 /* Assets.xcassets */,
 				CEAFBA22243372E100A902C9 /* LaunchScreen.storyboard */,
@@ -292,6 +295,7 @@
 				CEAFBA50243378DC00A902C9 /* ItemRow.swift in Sources */,
 				CEAFBA4B243373BD00A902C9 /* Order.swift in Sources */,
 				CEAFBA52243381F800A902C9 /* ItemDetail.swift in Sources */,
+				CEAFBA5424338DF000A902C9 /* OrderView.swift in Sources */,
 				CEAFBA1C243372DE00A902C9 /* ContentView.swift in Sources */,
 				CEAFBA48243373B300A902C9 /* Helper.swift in Sources */,
 			);
