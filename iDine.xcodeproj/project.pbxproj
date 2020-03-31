@@ -22,6 +22,7 @@
 		CEAFBA50243378DC00A902C9 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA4F243378DC00A902C9 /* ItemRow.swift */; };
 		CEAFBA52243381F800A902C9 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA51243381F800A902C9 /* ItemDetail.swift */; };
 		CEAFBA5424338DF000A902C9 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA5324338DF000A902C9 /* OrderView.swift */; };
+		CEAFBA56243392EA00A902C9 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA55243392EA00A902C9 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		CEAFBA4F243378DC00A902C9 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		CEAFBA51243381F800A902C9 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		CEAFBA5324338DF000A902C9 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		CEAFBA55243392EA00A902C9 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				CEAFBA4F243378DC00A902C9 /* ItemRow.swift */,
 				CEAFBA51243381F800A902C9 /* ItemDetail.swift */,
 				CEAFBA5324338DF000A902C9 /* OrderView.swift */,
+				CEAFBA55243392EA00A902C9 /* AppView.swift */,
 				CEAFBA4D2433740700A902C9 /* menu.json */,
 				CEAFBA1D243372E000A902C9 /* Assets.xcassets */,
 				CEAFBA22243372E100A902C9 /* LaunchScreen.storyboard */,
@@ -297,6 +300,7 @@
 				CEAFBA52243381F800A902C9 /* ItemDetail.swift in Sources */,
 				CEAFBA5424338DF000A902C9 /* OrderView.swift in Sources */,
 				CEAFBA1C243372DE00A902C9 /* ContentView.swift in Sources */,
+				CEAFBA56243392EA00A902C9 /* AppView.swift in Sources */,
 				CEAFBA48243373B300A902C9 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
