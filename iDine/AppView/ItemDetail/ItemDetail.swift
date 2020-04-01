@@ -47,8 +47,12 @@ struct ItemDetail: View {
                     }
                 }
                 ) {
-                    Image(systemName:
-                        favourite.isFavourite(item: self.item) ? "star.fill" : "star")
+                    if favourite.isFavourite(item: self.item) {
+                        Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
+                    } else {
+                        Image(systemName: "star")
+                    }
             })
     }
 }
