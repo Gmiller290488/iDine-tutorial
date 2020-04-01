@@ -13,8 +13,7 @@ struct ItemDetail: View {
     var item: MenuItem
 
     @EnvironmentObject var order: Order
-
-    @State var isFavourite: Bool = false
+    @EnvironmentObject var favourite: Favourite
 
     var body: some View {
         VStack {
@@ -39,22 +38,30 @@ struct ItemDetail: View {
         .navigationBarTitle(Text(item.name),
                             displayMode: .inline)
             .navigationBarItems(trailing:
-                Button(action: {
-                    self.isFavourite = !self.isFavourite
+                Button(action:
+                    {
+                        if self.favourite.isFavourite(item: self.item) {
+                        self.favourite.remove(item: self.item)
+                    } else {
+                        self.favourite.add(item: self.item)
+                    }
                 }
                 ) {
                     Image(systemName:
-                        isFavourite ? "star.fill" : "star")
+                        favourite.isFavourite(item: self.item) ? "star.fill" : "star")
             })
     }
 }
 
 struct ItemDetail_Previews: PreviewProvider {
     static let order = Order()
+    static let favourite = Favourite()
 
     static var previews: some View {
         NavigationView {
-            ItemDetail(item: MenuItem.example).environmentObject(order)
+            ItemDetail(item: MenuItem.example)
+                .environmentObject(order)
+                .environmentObject(favourite)
         }
     }
 }

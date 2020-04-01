@@ -24,7 +24,8 @@
 		CEAFBA5424338DF000A902C9 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA5324338DF000A902C9 /* OrderView.swift */; };
 		CEAFBA56243392EA00A902C9 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA55243392EA00A902C9 /* AppView.swift */; };
 		CEAFBA582433964D00A902C9 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA572433964D00A902C9 /* CheckoutView.swift */; };
-		CEAFBA632434865800A902C9 /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA622434865800A902C9 /* Favourites.swift */; };
+		CEAFBA632434865800A902C9 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA622434865800A902C9 /* FavouritesView.swift */; };
+		CEAFBA6524348D5000A902C9 /* Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFBA6424348D5000A902C9 /* Favourite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +69,8 @@
 		CEAFBA5324338DF000A902C9 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		CEAFBA55243392EA00A902C9 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		CEAFBA572433964D00A902C9 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
-		CEAFBA622434865800A902C9 /* Favourites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourites.swift; sourceTree = "<group>"; };
+		CEAFBA622434865800A902C9 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		CEAFBA6424348D5000A902C9 /* Favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			children = (
 				CEAFBA4A243373BD00A902C9 /* Menu.swift */,
 				CEAFBA49243373BD00A902C9 /* Order.swift */,
+				CEAFBA6424348D5000A902C9 /* Favourite.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -233,7 +236,7 @@
 		CEAFBA612434864100A902C9 /* Favourites */ = {
 			isa = PBXGroup;
 			children = (
-				CEAFBA622434865800A902C9 /* Favourites.swift */,
+				CEAFBA622434865800A902C9 /* FavouritesView.swift */,
 			);
 			path = Favourites;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFBA6524348D5000A902C9 /* Favourite.swift in Sources */,
 				CEAFBA4C243373BD00A902C9 /* Menu.swift in Sources */,
 				CEAFBA582433964D00A902C9 /* CheckoutView.swift in Sources */,
 				CEAFBA18243372DE00A902C9 /* AppDelegate.swift in Sources */,
@@ -377,7 +381,7 @@
 				CEAFBA50243378DC00A902C9 /* ItemRow.swift in Sources */,
 				CEAFBA4B243373BD00A902C9 /* Order.swift in Sources */,
 				CEAFBA52243381F800A902C9 /* ItemDetail.swift in Sources */,
-				CEAFBA632434865800A902C9 /* Favourites.swift in Sources */,
+				CEAFBA632434865800A902C9 /* FavouritesView.swift in Sources */,
 				CEAFBA5424338DF000A902C9 /* OrderView.swift in Sources */,
 				CEAFBA1C243372DE00A902C9 /* ContentView.swift in Sources */,
 				CEAFBA56243392EA00A902C9 /* AppView.swift in Sources */,

@@ -21,10 +21,11 @@ struct AppView: View {
                     Image(systemName: "square.and.pencil")
                     Text("Order")
             }
-//            FavouritesView()
-//                .tabItem {
-//                    Image(systemName: "star.fill")
-//            }
+            FavouritesView()
+                .tabItem {
+                    Image(systemName: "star.fill")
+                    Text("Favourites")
+            }
         }
     }
 }
