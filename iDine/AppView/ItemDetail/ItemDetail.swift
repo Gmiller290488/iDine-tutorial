@@ -14,6 +14,8 @@ struct ItemDetail: View {
 
     @EnvironmentObject var order: Order
 
+    @State var isFavourite: Bool = false
+
     var body: some View {
         VStack {
             ZStack(alignment: .bottomTrailing) {
@@ -36,6 +38,14 @@ struct ItemDetail: View {
         }
         .navigationBarTitle(Text(item.name),
                             displayMode: .inline)
+            .navigationBarItems(trailing:
+                Button(action: {
+                    self.isFavourite = !self.isFavourite
+                }
+                ) {
+                    Image(systemName:
+                        isFavourite ? "star.fill" : "star")
+            })
     }
 }
 
